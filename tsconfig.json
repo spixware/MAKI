@@ -1,0 +1,24 @@
+{
+    "include": ["**/*.*"],
+    "exclude": ["node_modules", "**/*.spec.ts", "./vscode", "./build", "./data", "./docs"],
+    "compilerOptions": {
+       "target": "es2022",
+       "module": "commonjs",
+       "rootDir": "./",
+       "outDir": "./build",
+       "esModuleInterop": true,
+       "declaration": true,
+       "strict": false,
+       "allowJs": true,
+       "noImplicitAny": false,
+       "strictNullChecks": true,
+       "strictFunctionTypes": true,
+       "strictBindCallApply": true,
+       "strictPropertyInitialization": true,
+       "noImplicitThis": true,
+       "alwaysStrict": true,
+       "typeRoots": ["./node_modules/@types", "./typings"],
+       "sourceMap": true,
+       "resolveJsonModule": true
+    }
+} 

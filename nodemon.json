@@ -1,0 +1,14 @@
+{
+    "watch": ["**/*"],
+    "ext": "ts,json,js",
+    "ignore": [
+       "node_modules",
+       "**/*.spec.ts",
+       "package.json",
+       "package-lock.json",
+       "tsconfig.json",
+       "./vscode",
+       "./build"
+    ],
+    "exec": "ts-node --files"
+}
