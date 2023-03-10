@@ -1,0 +1,10 @@
+{
+	"Android": 0,
+	"Windows": 1,
+	"MacOS": 2,
+	"iOS": 3,
+	"Chrome OS": 4,
+	"Linux": 5,
+	"Ubuntu": 6,
+	"Other": 7
+}

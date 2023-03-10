@@ -1,0 +1,167 @@
+{
+	"ip": "string",
+	"rtmpstats": [
+		{
+			"orgahash": "string",
+			"streamhash": "string",
+			"stream_tags": ["string"],
+			"resolution_profile": "number",
+			"connections?": "number",
+			"uniqueIPs": "number"
+		}
+	],
+	"connect": [
+		{
+			"timestamp": "number",
+			"orgahash": "string",
+			"streamhash": "string",
+			"duration": "number",
+			"bytes_sent": "number",
+			"referrer": "string",
+			"geoip": {
+				"postal_code": "number",
+				"country": "string",
+				"latitude": "number",
+				"longitude": "number",
+				"city_name": "string",
+				"region_name": "string"
+			},
+			"agent": {
+				"id": "string",
+				"device": "string",
+				"major": "number",
+				"minor": "number",
+				"name": "string",
+				"os": "string",
+				"os_full": "string",
+				"os_major": "number",
+				"os_minor": "number",
+				"os_name": "string",
+				"os_version": "string",
+				"patch": "string",
+				"version": "string"
+			}
+		}
+	],
+	"play": [
+		{
+			"timestamp": "number",
+			"orgahash": "string",
+			"streamhash": "string",
+			"duration": "number",
+			"bytes_sent": "number",
+			"referrer": "string",
+			"geoip": {
+				"postal_code": "number",
+				"country": "string",
+				"coordinates": ["number"],
+				"city_name": "string",
+				"region_name": "string"
+			},
+			"agent": {
+				"id": "string",
+				"device": "string",
+				"major": "number",
+				"minor": "number",
+				"name": "string",
+				"os": "string",
+				"os_full": "string",
+				"os_major": "number",
+				"os_minor": "number",
+				"os_name": "string",
+				"os_version": "string",
+				"patch": "string",
+				"version": "string"
+			}
+		}
+	],
+	"h5livestats": [
+		{
+			"timestamp": "number",
+			"orgahash": "string",
+			"streamhash": "string",
+			"stat_version": "number",
+			"player_id": "number",
+			"session": "number",
+			"tags": ["string"],
+			"bitsPerSec_Sent": "number",
+			"bytesSentRelative": "number",
+			"drop_time": "number",
+			"drop_ratio": "number",
+			"token_value": "string",
+			"token_expires": "number",
+			"referrer": "string",
+			"geoip": {
+				"postal_code": "number",
+				"country": "string",
+				"coordinates": ["number"],
+				"city_name": "string",
+				"region_name": "string"
+			},
+			"agent": {
+				"id": "string",
+				"device": "string",
+				"major": "number",
+				"minor": "number",
+				"name": "string",
+				"os": "string",
+				"os_full": "string",
+				"os_major": "number",
+				"os_minor": "number",
+				"os_name": "string",
+				"os_version": "string",
+				"patch": "string",
+				"version": "string"
+			}
+		}
+	],
+	"close": [
+		{
+			"timestamp": "number",
+			"orgahash": "string",
+			"streamhash": "string",
+			"duration": "number",
+			"bytes_sent": "number",
+			"referrer": "string",
+			"geoip": {
+				"postal_code": "number",
+				"country": "string",
+				"coordinates": ["number"],
+				"city_name": "string",
+				"region_name": "string"
+			},
+			"agent": {
+				"id": "string",
+				"device": "string",
+				"major": "number",
+				"minor": "number",
+				"name": "string",
+				"os": "string",
+				"os_full": "string",
+				"os_major": "number",
+				"os_minor": "number",
+				"os_name": "string",
+				"os_version": "string",
+				"patch": "string",
+				"version": "string"
+			}
+		}
+	],
+	"blocks": [
+		{
+			"timestamp": "number",
+			"referrer": "string",
+			"orgahash": "string",
+			"streamhash": "string",
+			"provider": "string",
+			"subnet": "string",
+			"geoip": {
+				"postal_code": "number",
+				"country": "string",
+				"coordinates": ["number"],
+				"city_name": "string",
+				"region_name": "string"
+			}
+		}
+	]
+}

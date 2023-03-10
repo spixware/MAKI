@@ -1,0 +1,6 @@
+{
+	"connect": 0,
+	"play": 1,
+	"h5live": 2,
+	"close": 3
+}
