@@ -1,0 +1,21 @@
+Start logging loss
+Epoch [1/2], Batch [1/10], Loss: 0.6750
+Epoch [1/2], Batch [2/10], Loss: 0.6689
+Epoch [1/2], Batch [3/10], Loss: 0.7088
+Epoch [1/2], Batch [4/10], Loss: 0.7268
+Epoch [1/2], Batch [5/10], Loss: 0.7266
+Epoch [1/2], Batch [6/10], Loss: 0.7250
+Epoch [1/2], Batch [7/10], Loss: 0.7224
+Epoch [1/2], Batch [8/10], Loss: 0.7193
+Epoch [1/2], Batch [9/10], Loss: 0.7158
+Epoch [1/2], Batch [10/10], Loss: 0.7120
+Epoch [2/2], Batch [1/10], Loss: 0.6787
+Epoch [2/2], Batch [2/10], Loss: 0.6810
+Epoch [2/2], Batch [3/10], Loss: 0.6986
+Epoch [2/2], Batch [4/10], Loss: 0.7023
+Epoch [2/2], Batch [5/10], Loss: 0.7002
+Epoch [2/2], Batch [6/10], Loss: 0.6976
+Epoch [2/2], Batch [7/10], Loss: 0.6946
+Epoch [2/2], Batch [8/10], Loss: 0.6913
+Epoch [2/2], Batch [9/10], Loss: 0.6876
+Epoch [2/2], Batch [10/10], Loss: 0.6836

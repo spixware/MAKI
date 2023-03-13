@@ -1,0 +1,5 @@
+Start logging loss
+Epoch [1/10], Batch [1/40], Loss: 0.0001
+Epoch [1/10], Batch [2/40], Loss: 0.0001
+Epoch [1/10], Batch [3/40], Loss: 0.0001
+Epoch [1/10], Batch [4/40], Loss: 0.0001
